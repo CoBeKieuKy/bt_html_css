@@ -1,0 +1,174 @@
+/* row 1 */
+#row1{
+    background-color: black;
+    height: 25px;
+}
+
+#row1 > div > div > #hotline, #login-info{
+    color: white;
+    font-size: 13px;
+}
+
+#row1 > div >div > #login-info{
+    margin-left: 380px;
+}
+
+#row1 > div > div > #login-info > span > img{
+    margin-left: 120px;
+    border-top-left-radius: 3px;
+    width: 20px;
+}
+
+/* row 2 */
+
+#row2{
+    background-color: #252525;
+    height: 65px;
+}
+
+#row2 > div > div > div > img{
+    width: 240px;
+    margin-left: -20px;
+}
+
+#row2 > div > div > div > ul{ 
+    display: inline-block;
+    margin-left: 100px;
+}
+
+#row2 > div > div > div > ul >li{
+    float: left;
+    list-style-type: none;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+#row2 > div > div > div > ul >li >a{
+    color: white;
+}
+
+#row2 > div > div > div > ul >li >a:hover{
+    color: #d99339;
+    text-decoration: none;
+    border-bottom: 2px solid #d99339;
+    padding-bottom: 6px;
+}
+
+/* LIST */
+
+#list > div > div > div >.card{
+    width: 16rem;
+    height: 24rem;
+    padding-right: 10px;
+    margin-top: 30px;
+}
+
+#list > div > div > div > .card > img{
+    margin-top: 15px;
+    margin-left: 16px;
+    width: 221px;
+}
+
+#list > div > div > div > .card > div > h6{
+    font-weight: bold;
+}
+
+#list > div > div > div > .card > div > p{
+    font-size: 14px;
+}
+
+#list > div > div > div > .card > .card-footer{
+    margin-right: -10px;
+    height: 47px;
+}
+
+#list > div > div > div > .card > .card-footer > p {
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 75px;
+    color: #d99339;
+}
+
+#list > div > div > div > .card > .card-footer > p > i{
+    padding-left: 5px;
+}
+
+#list > div > div > div > .card > .card-footer.card-custom{
+    background: white;
+} 
+
+/* footer */
+footer{
+    height: 100px;
+    background-color: black;
+    margin-top : 50px;
+}
+
+footer > div > div > div> p{
+    font-size: 11px;
+    margin-top: 25px;
+    color: #d99339;
+}
+
+footer > div > div > #place{
+    font-size: 11px;
+    margin-top: 25px;
+    color: #d99339;
+}
+
+footer > div > div > #contact{
+    padding-left: 60px;
+    font-size: 11px;
+    margin-top: 25px;
+    color: #d99339;
+}
+
+/* MODAL */
+
+#myModal >.modal-dialog > .modal-content > .modal-header{
+    height: 50px;
+}
+
+#myModal > .modal-dialog > .modal-content > .modal-header > p {
+    font-weight: bold;
+}
+
+#myModal > .modal-dialog > .modal-content > .modal-body > .list-group > li{
+    height: 67px;
+}
+
+#myModal > .modal-dialog > .modal-content > .modal-body > .list-group >li:hover{
+    border: 4px solid rgb(223, 216, 216) ; 
+    border-radius: 4px;
+}
+
+#myModal > .modal-dialog > .modal-content > .modal-body > .list-group >li:hover >div >div >i{
+    color: #d99339;
+}
+
+#myModal > .modal-dialog > .modal-content > .modal-body > .list-group >li >div >div >a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+#myModal > .modal-dialog > .modal-content > .modal-body > .list-group >li >div >div >i{
+    color: gray;
+    padding-top: 14px;
+    font-size: 20px;
+}
+
+#myModal > .modal-dialog > .modal-content{
+    width: 650px !important;
+    height: 350px !important;
+}
+
+#myModal > .modal-dialog{
+    margin-left: 30% !important;
+    margin-top: 200px !important;
+}
+
+
+
+
+

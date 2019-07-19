@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- IMPORT CSS FILE -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="exam.css" type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+        integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+        <title>
+            Exam
+        </title>
+    </head>
+
+    <body onload="startTime()">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="img/logo.PNG" atl = "logo">
+                </div>
+
+                <div class="col-md-4">
+                    <fieldset>
+                        <legend>&nbsp;&nbsp;&nbsp;Thời gian học&nbsp;&nbsp;&nbsp;</legend>
+                        <span id="clock"></span>
+                    </fieldset>   
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 offset-md-4">
+                    <b>Choose the best word to complete the sentence.</b>
+                    <br><i>(Chọn đáp án đúng nhất.)</i>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-9">
+                    <ul class="list-group">
+                        <li class="list-group-item " onclick="toResult()"><span class="circle"></span>I am a cup</li><br>
+                        <li class="list-group-item " onclick="toResult()"><span class="circle"></span>I am a boy</li><br>
+                        <li class="list-group-item " onclick="toResult()"><span class="circle"></span>I a boy</li><br>
+                        <li class="list-group-item " onclick="toResult()"><span class="circle"></span>I'm very a boy</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                    <img src="img/teacher.PNG" alt="teacher">
+            </div>
+        </div> 
+
+        <div class="progress">
+            <div data-toggle="tooltip" title="1/4"class="progress-bar" role="progressbar" style="width: 25%; background-color:  #ffcc66 !important;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+
+        <br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-4 ">
+                    <button id="btn_previous"><i class="fas fa-arrow-left"></i>Previous</button>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <button id="btn_next">Next<i class="fas fa-arrow-right"></i></button>
+                </div>              
+            </div>
+        </div>
+        
+    </body>
+
+    <!-- IMPORT JS FILE -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="exam.js" type="text/javascript"></script>
+
+    <script>
+            $(document).ready(function(){
+              $('[data-toggle="tooltip"]').tooltip();   
+            });
+    </script>
+</html>

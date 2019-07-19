@@ -1,0 +1,28 @@
+#checkname, #checkpass{
+    color: red; 
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 38px;
+}
+
+#login, #register, #username, #password{
+    margin-top: 20px; 
+    margin-left: 28px;
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+#register, #login{
+    font-weight: bold;
+    text-align: center;
+}
+
+#loginbox{
+    margin-top: 100px; 
+    margin-left: 350px;
+}
+
+body{
+    background-color: black;
+}
